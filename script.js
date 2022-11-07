@@ -12,13 +12,16 @@ menuLinks.forEach((e) => {
 
 const openNav = document.querySelector(".open-nav");
 const closeNav = document.querySelector(".close-nav");
-const nav = document.querySelector("nav")
+const nav = document.querySelector(".nav-header");
+
 
 
 openNav.addEventListener('click', function() {
-      nav.classList.add('open-nav')
+      // console.log("click")
+      nav.classList.add('open-menu')
 })
 
 closeNav.addEventListener('click', function() {
-      nav.classList.remove('open-nav')
+      console.log("click")
+      nav.classList.remove('open-menu')
 })
